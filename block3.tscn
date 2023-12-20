@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://clnjxdwull6ak"]
+
+[ext_resource type="Script" path="res://block.gd" id="1_gmqak"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vdfmd"]
+resource_local_to_scene = true
+
+[node name="Block3" type="Node3D"]
+script = ExtResource("1_gmqak")
+size = Vector3(2, 1, 1)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+size = Vector3(2, 1, 1)
+material = SubResource("StandardMaterial3D_vdfmd")

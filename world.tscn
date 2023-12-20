@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bufer4c7htqfp"]
+
+[ext_resource type="Script" path="res://world.gd" id="1_b8npt"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_b8npt")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 10, 0)
+projection = 1
+size = 37.19
